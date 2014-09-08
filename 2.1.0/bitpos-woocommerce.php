@@ -65,7 +65,7 @@ function woocommerce_load_bitpos_gateway ()
 
             // Logs
             if ( 'yes' == $this->debug )
-                $this->log = $woocommerce->logger();
+                $this->log = new WC_Logger();
 
             // Actions
             add_action( 'woocommerce_receipt_bitpos', array( $this, 'receipt_page' ) );
@@ -587,6 +587,7 @@ function woocommerce_load_bitpos_gateway ()
          */
         function receipt_page( $order ) {
 
+            $this->log = new WC_Logger();
             echo '<p>'.__( 'Thank you for your order, please click the button below to pay with BitPOS.', 'woocommerce' ).'</p>';
 
             $this->log->add('bitpos', '----------------------------');
