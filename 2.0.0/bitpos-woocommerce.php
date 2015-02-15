@@ -38,9 +38,9 @@ function woocommerce_load_bitpos_gateway ()
             $this->icon         = plugins_url('/assets/images/icons/bitpos_logo.png', __FILE__);
             $this->has_fields   = false;
             $this->prodgateway      = 'https://rest.bitpos.me';
-            $this->testgateway      = 'https://rest.dev.bitpos.me';
+            $this->testgateway      = 'https://rest.test.bitpos.me';
             $this->prodredirect     = 'https://payment.bitpos.me/payment.jsp';
-            $this->testredirect     = 'https://payment.dev.bitpos.me/payment.jsp';
+            $this->testredirect     = 'https://payment.test.bitpos.me/payment.jsp';
 
 
             $this->method_title = __( 'BitPOS', 'woocommerce' );
