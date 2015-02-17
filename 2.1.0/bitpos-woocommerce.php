@@ -148,17 +148,17 @@ function woocommerce_load_bitpos_gateway ()
                                 'default' => __( 'Your payment will be completed using BitPOS WebPay', 'woocommerce' )
                             ),
                 'email' => array(
-                                'title' => __( 'BitPOS Username', 'woocommerce' ),
+                                'title' => __( 'BitPOS API Key', 'woocommerce' ),
                                 'type'             => 'email',
-                                'description' => __( 'Please enter your BitPOS username', 'woocommerce' ),
+                                'description' => __( 'Please enter your BitPOS API Key', 'woocommerce' ),
                                 'default' => '',
                                 'desc_tip'      => true,
                                 'placeholder'    => 'user@coinpayment.me'
                             ),
                 'apikey' => array(
-                                'title' => __( 'BitPOS API Key', 'woocommerce' ),
+                                'title' => __( 'BitPOS API Password', 'woocommerce' ),
                                 'type'             => 'password',
-                                'description' => __( 'Please enter your BitPOS API Key', 'woocommerce' ),
+                                'description' => __( 'Please enter your BitPOS API password', 'woocommerce' ),
                                 'default' => '',
                                 'desc_tip'      => true,
                                 'placeholder'    => 'Enter your API Key'
