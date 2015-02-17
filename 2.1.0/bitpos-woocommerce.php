@@ -149,11 +149,11 @@ function woocommerce_load_bitpos_gateway ()
                             ),
                 'email' => array(
                                 'title' => __( 'BitPOS API Key', 'woocommerce' ),
-                                'type'             => 'email',
+                                'type'             => 'text',
                                 'description' => __( 'Please enter your BitPOS API Key', 'woocommerce' ),
                                 'default' => '',
                                 'desc_tip'      => true,
-                                'placeholder'    => 'user@coinpayment.me'
+                                'placeholder'    => 'dlcDIe9HftPrWDhMgn59nWwJcY1g2WGwXwZlXKpZ'
                             ),
                 'apikey' => array(
                                 'title' => __( 'BitPOS API Password', 'woocommerce' ),
