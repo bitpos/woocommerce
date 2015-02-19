@@ -161,7 +161,7 @@ function woocommerce_load_bitpos_gateway ()
                                 'description' => __( 'Please enter your BitPOS API password', 'woocommerce' ),
                                 'default' => '',
                                 'desc_tip'      => true,
-                                'placeholder'    => 'Enter your API Key'
+                                'placeholder'    => 'Enter your API Password'
                 ),
 
                 'invoice_prefix' => array(
